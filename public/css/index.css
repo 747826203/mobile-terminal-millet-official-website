@@ -1,0 +1,362 @@
+/*reset*/
+swipe-wrap
+html {
+    word-wrap: break-word;
+    font-family: Arial, Verdana, Sans-serif;
+    display: block;
+}
+
+html,
+body,
+#wrapper {
+    height: 100%;
+}
+
+body,
+h1,
+h2,
+h3,
+p,
+dl,
+dd,
+ol,
+ul,
+th,
+td,
+form,
+fieldset,
+input,
+button,
+textarea {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: .2rem;
+    color: #333;
+    display: block;
+}
+
+div {
+    display: block;
+}
+
+fieldset,
+img {
+    border: 0;
+}
+
+li,
+img,
+label,
+input {
+    vertical-align: middle;
+}
+
+a,
+input,
+textarea {
+    text-decoration: none;
+    outline: 0;
+}
+
+a {
+    color: #333;
+}
+/*业务样式*/
+
+#wrapper {
+    position: relative;
+    width: 7.2rem;
+    margin: 0 auto;
+    z-index: 2;
+}
+
+.channel-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    display: box;
+    display: -webkit-box;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    padding: .15rem 0;
+}
+
+.channel-header .logo {
+    width: .8rem;
+    padding: 0 .23rem;
+    box-sizing: border-box;
+}
+
+.channel-header .logo img {
+    width: auto;
+    height: .34rem;
+}
+
+.channel-header .search_bar {
+    line-height: .34rem;
+    background: url(http://m.mi.com/component/header/img/search333_5ab6d3c.png) no-repeat;
+    background-size: 101% 101%;
+    width: 5.6rem;
+    height: .53rem;
+    border-radius: .05rem;
+    box-sizing: border-box;
+}
+
+.channel-header .search_bar>a {
+    display: block;
+    padding: .12rem .6rem .1rem;
+}
+
+.channel-header .search_bar .text {
+    font-size: .26rem;
+    color: #9C9C9C;
+}
+
+.channel-header .login {
+    display: block;
+    width: .8rem;
+    padding: 0 .15rem;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+
+.channel-header .login .user {
+    width: .5rem;
+}
+
+.channel-header .login .user img {
+    width: 100%;
+    height: auto;
+}
+
+.channel-header .login .user.state1 {
+    width: .4rem;
+}
+/*header*/
+
+.channel-index .slider {
+    height: auto;
+    background-color: #fff;
+    overflow: hidden;
+    position: relative;
+}
+
+.channel-index .slider .swipe-wrap {
+    overflow: hidden;
+    position: relative;
+}
+
+.channel-index .slider .swipe-wrap>div {
+    float: left;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+.channel-index .slider .swipe-wrap>div a {
+    display: block;
+}
+
+.channel-index .slider .swipe-wrap>div img {
+    height: auto;
+    width: 100%;
+}
+/*content*/
+
+.f-list .section {
+    margin-top: -1px;
+}
+
+.f-list .divider_line {
+    margin: 0 auto!important;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    box-sizing: border-box;
+}
+
+.f-list .cells_auto_fill .body {
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.f-list .cells_auto_fill .items {
+    position: absolute;
+}
+
+.f-list .img {
+    position: relative;
+}
+
+.f-list .cells_auto_fill .items img {
+    width: 100%;
+}
+
+.f-list img {
+    width: 100%;
+    height: auto;
+}
+
+.f-list .list_one_type1 .item,
+.f-list .list_one_type9 .item,
+.f-list .list_one_type10 .item,
+.f-list .list_one_type12 .item {
+    position: relative;
+    width: 100%;
+}
+
+.f-list .info {
+    padding: .2rem .27rem;
+}
+
+.f-list .info .l {
+    display: box;
+    display: -webkit-box;
+    box-align: center;
+    -webkit-box-align: center;
+    box-pack: justify;
+    -webkit-box-pack: justify;
+    overflow: hidden;
+}
+
+.f-list .name {
+    font-size: .28rem;
+    color: rgba(0, 0, 0, .87);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.f-list .price {
+    font-size: .32rem;
+    color: #ff6000;
+    margin-top: .08rem;
+    position: relative;
+    margin-left: .2rem;
+}
+
+.f-list .info .l .price {
+    margin-top: 0;
+}
+
+.f-list .price::before {
+    content: "￥";
+    position: absolute;
+    left: -.2rem;
+    top: .01rem;
+    font-size: .2rem;
+    margin-right: .05rem;
+    font-weight: 400;
+}
+
+.f-list .brief {
+    margin-top: .06rem;
+    font-size: .23rem;
+    line-height: .3rem;
+    color: rgba(0, 0, 0, .54);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.f-list .list_two_type1 .box {
+    width: 100%;
+    display: box;
+    display: -webkit-box;
+    box-align: center;
+    -webkit-box-align: center;
+    box-pack: justify;
+    -webkit-box-pack: justify;
+    overflow: hidden;
+}
+
+.f-list .list_two_type1 .item {
+    width: 3.6rem;
+}
+
+.f-list .list_two_type1 .item:first-child {
+    margin-right: .04rem;
+}
+
+.f-list .list_two_type1 .img {
+    width: 3.6rem;
+    height: 3.6rem;
+}
+
+.f-list .tag {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.f-list .tag img {
+    height: .32rem;
+    width: auto;
+}
+.footer {
+position: fixed;
+bottom: 0;
+left: 0;
+right: 0;
+background: #FFF;
+z-index: 99;
+border-top: 1px solid #e0e0e0;
+}
+.footer ul {
+display: box;
+display: -webkit-box;
+box-align: center;
+-webkit-box-align: center;
+box-pack: center;
+-webkit-box-pack: center;
+}
+ol, ul {
+list-style: none;
+}
+.footer li {
+-webkit-box-flex: 1;
+box-flex: 1;
+width: 100%;
+text-align: center;
+}
+a, input, textarea {
+text-decoration: none;
+outline: 0;
+}
+a {
+color: #333;
+}
+.footer li>a {
+display: block;
+padding: .12rem 0;
+}
+.footer .nav .ispr {
+width: .4rem;
+height: .4rem;
+background-image: url(http://m.mi.com/component/footer/img/spr1_5b2e09c.png);
+-webkit-background-size: .4rem 3.2rem;
+-moz-background-size: .4rem 3.2rem;
+-ms-background-size: .4rem 3.2rem;
+-o-background-size: .4rem 3.2rem;
+background-size: .4rem 3.2rem;
+overflow: hidden;
+margin: 0 auto .08rem;
+}
+.footer li>a.on .nav .ispr.ih {
+background-position-y: -2.4rem;
+}
+.footer .nav .ispr.ic {
+background-position-y: -.4rem;
+}
+.footer .nav .ispr.is {
+background-position-y: -1.2rem;
+}
+.footer .nav .ispr.if {
+background-position-y: -2rem;
+}

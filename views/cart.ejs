@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>小米商城移动端-购物车详情页</title>
+  <script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js"></script>
+  <link href="./css/style.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body onstarttouch>
+  <div id="wrapper">
+    <div class="cart-index" data-log="购物车">
+      <div class="header">
+        <div class="left">
+          <a class="home">
+            <img src="http://s1.mi.com/m/images/m/icon_back_n.png" class="ib">
+          </a><!--vue-if--><!--vue-if-->
+        </div>
+        <div class="tit">
+          <h2 data-log="HEAD-标题-购物车">
+            <span class="title">购物车</span>
+          </h2><!--vue-if-->
+        </div>
+        <div class="right">
+          <a href="javascript:;" data-event="30000000110001001">
+            <div class="icon icon-search"></div>
+          </a>
+        </div>
+      </div>
+      <div class="cart-index-wrap"><!--vue-if--><!--vue-if-->
+        <div><!-- div(class="tips")--><!--     p--><!--         a 产品是否购买成功，以最终下单为准，请尽快结算--><!-- div.ui_line-->
+          <div class="cart-list">
+            <ul>
+
+            </ul>
+          </div>
+          <div class="pointBox"><!--v-repeat-activitys.gift--><!--v-repeat-activitys.reduction--><!--v-repeat-activitys.coupons-->
+            <div class="point" style="display: none;">
+              <span class="act act_special">包邮</span>
+              <span></span>
+            </div>
+            <div class="point"><!-- p(v-text='"满"+appConfig.discountMin+"元免邮费（除电视、净水器、体重秤）"')-->
+              <p>温馨提示：产品是否购买成功，以最终下单为准，请尽快结算</p>
+            </div>
+          </div>
+          <div class="ui_line"></div>
+          <div class="bargain">
+            <div class="list">
+              <a href="http://m.mi.com/#/shopping/bargain?actId=2908">
+                <div class="item">
+                  <i class="check">
+                    <span class="icon-checked"></span>
+                  </i>
+                  <span>+25元得小米活塞耳机 清新版</span><!--vue-if-->
+                  <i class="more"></i>
+                </div>
+              </a>
+              <a href="http://m.mi.com/#/shopping/bargain?actId=2959">
+                <div class="item">
+                  <i class="check">
+                    <span class="icon-checked"></span>
+                  </i>
+                  <span>+14.9元得米家随身风扇</span><!--vue-if-->
+                  <i class="more"></i>
+                </div>
+              </a>
+              <a href="http://m.mi.com/#/shopping/bargain?actId=2974">
+                <div class="item">
+                  <i class="check">
+                    <span class="icon-checked"></span>
+                  </i>
+                  <span>+18元得最生活毛巾·青春系列</span><!--vue-if-->
+                  <i class="more"></i>
+                </div><!--v-repeat-bargains-->
+              </a>
+              <a href="http://m.mi.com/#/shopping/bargain?actId=2781">
+                <div class="item">
+                  <i class="check">
+                    <span class="icon-checked"></span>
+                  </i>
+                  <span>+39元得小米自拍杆（线控版）</span><!--vue-if-->
+                  <i class="more"></i>
+                </div>
+              </a>
+              <a href="http://m.mi.com/#/shopping/bargain?actId=2381">
+                <div class="item">
+                  <i class="check">
+                    <span class="icon-checked"></span>
+                  </i>
+                  <span>+14.9元得米家LED随身灯</span><!--vue-if-->
+                  <i class="more"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="bottom-submit ui-box">
+            <div class="price">
+              <span>共1件 金额：</span><br>
+              <strong>999.00</strong>
+              <span>元</span>
+            </div>
+            <div class="btn">
+              <a class="ui-button ui-button-disable" href="#">
+                <span>继续购物</span>
+              </a>
+            </div>
+            <div class="btn">
+              <a class="ui-button">
+                <span>去结算</span>
+              </a>
+            </div>
+          </div>
+        </div><!--vue-if--><!--vue-if--><!--vue-if--><!--vue-if-->
+      </div>
+    </div><!--v-view-->
+    <div class="maxnum" style="display:none;">已达到最大购买数量</div>
+  </div>
+  <script src="./js/event.js"></script>
+</body>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>登录</title>
+    <script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js"></script>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/signin.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="wrap">
+            <div class="layout_panel">
+                <div class="layout" id="layout">
+                    <div class="mainbox" id="login-main">
+                        <!--二维码-->
+                        <div class="login-code">
+                            <a href="javascript:;" class="ercode"></a>
+
+                        </div>
+                        <!--二维码展示-->
+                        <div class="ercode_pannel">
+                            <a class="code_close" href="javascript:void(0)" title="关闭" id="qrcode-close"><span class="icon_code_close"></span></a>
+                            <div class="ercode_box">
+                                <div class="code_hd">
+                                    <h3 class="code_tit">小米帐号扫码登录</h3>
+                                    <p>请使用最新版MIUI中“我的小米”进行扫码登录</p>
+                                </div>
+                                <div class="code_iframe">
+                                    <div class="code-bg"> 
+                                        <iframe style="background:#fff;" src="https://lg.lp.account.xiaomi.com/static/res/4959ea5/account-static/html/login/dist/passlp-cn.html?callback=https%3A%2F%2Fm.mi.com%2Fv1%2Fauthorize%2Fsso_callback%3Ffollowup%3Dhttp%253A%252F%252Fm.mi.com%252F%2523%252Fuser%252Findex%26sign%3DZmRjZDY5ZTc3YTczNWYxOWNlZDBkNmQ0M2VmNDJhOGFhM2E0MzIyNg%2C%2C&sid=mi_eshopm_go&_style=lite&_qrsize=270&_=1492939127589" id="qriframe" frameborder="0" scrolling="no" height="270" width="270"></iframe>
+                                  </div>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                        <!--logo -->
+                        <div class="login-header">
+                            <div class="header_tit t_c">
+                                <em id="custom_display_1" class="milogo">
+                                    <svg width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg"><rect width="50" height="50" style="fill:#ef5b00"></rect><rect x="11.25" y="15" width="5" height="20" style="fill:#FFFFFF"></rect><rect x="11.25" y="15" width="12.5" height="5" style="fill:#FFFFFF"></rect><rect x="26.25" y="22.5" width="5" height="12.5" style="fill:#FFFFFF"></rect><rect x="33.75" y="15" width="5" height="20" style="fill:#FFFFFF"></rect><circle cx="23.75" cy="22.5" r="7.5" fill="#FFFFFF"></circle><rect x="16.25" y="20" width="7.5" height="15" style="fill:#ef5b00"></rect><rect x="16.25" y="22.5" width="10" height="12.5" style="fill:#ef5b00"></rect><circle cx="23.75" cy="22.5" r="2.5" fill="#ef5b00"></circle><rect x="18.75" y="22.5" width="5" height="12.5" style="fill:#FFFFFF"></rect>
+                                    </svg>
+                                 </em>
+                                <h4 class="header_tit_txt" id="login-title">小米帐号登录</h4>
+                            </div>
+                        </div>
+                        <!--输入框-->
+                        <div class="login_area">
+                            <form action="" class="login-main-form" method="POST">
+                                <div class="login-input">
+                                    <label for="username" id="region-code" class="labelbox login_user c_b">
+                                        <input class="item_account" autocomplete="off" type="text" name="user" id="username" placeholder="邮箱/手机号码/小米帐号">
+                                    </label>
+                                    <label for="" class="labelbox pwd_panel c_b">
+                                        <div class="eye_panel pwd-visiable">
+                                            <i class="eye pwd-eye">
+                                            <svg width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                                <path class="eye_outer" d="M0 8 C6 0,14 0,20 8, 14 16,6 16, 0 8 z"></path>
+                                                <circle class="eye_inner" cx="10" cy="8" r="3"></circle>
+                                            </svg>
+                                            </i>
+                                            
+                                        </div>
+                                        <input type="password" placeholder="密码" autocomplete="off" name="hidepwd" >
+                                            <input type="text" placeholder="密码" autocomplete="off" name="showpwd" id="visiablePwd"  style="display: none;"  >
+
+                                    </label>
+                                </div>
+                                <!--按钮-->
+                                <div class="login-btn">
+                                    <a href="javascript:;" class="btnadpt btn_orange" id="login-button">立即登录</a>
+                                    <!--<input  value="">-->
+
+                                </div>
+                            </form>
+
+                        </div>
+
+                        <!--其它登陆方式-->
+                        <div class="other_login_type sns-login-container" >
+                            <fieldset class="oth_type_tit">
+                                <legend align="center" class="oth_type_txt">其他方式登录</legend>
+                            </fieldset>
+                            <div class="oth_type_links">
+                                <a class="icon_type btn_qq sns-login-link" data-type="qq" href="#" title="QQ登录" target="_blank"><i class="btn_sns_icontype icon_default_qq"></i></a>
+                                <a class="icon_type btn_weibo sns-login-link" data-type="weibo" href="" title="微博登录" target="_blank"><i class="btn_sns_icontype icon_default_weibo"></i></a>
+                                <a class="icon_type btn_alipay sns-login-link" data-type="alipay" href="" title="支付宝登录" target="_blank"><i class="btn_sns_icontype icon_default_alipay"></i></a>
+                            </div>
+                        </div>
+                        <div class="n_links_area" >
+                            <a class="outer-link" href="/signup">注册小米帐号</a><span>|</span>
+                            <a class="outer-link" href="">忘记密码？</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="custom_display_4" class="n-footer">
+            <div class="nf-link-area clearfix">
+                <ul class="lang-select-list">
+                    <li><a href="javascript:void(0)" data-lang="zh_CN" class="lang-select-li current">简体</a>|</li>
+                    <li>
+                        <a href="" data-lang="zh_TW" class="lang-select-li">繁体</a>|</li>
+                    <li>
+                        <a href="" data-lang="en" class="lang-select-li">English</a>|</li>
+                    <li><a href="#">常见问题</a></li>
+                </ul>
+            </div>
+            <p class="nf-intro"><span>小米公司版权所有-京ICP备10046444-<a class="beian-record-link" target="_blank" href=""><span><img src="https://account.xiaomi.com/static/res/9204d06/account-static/respassport/acc-2014/img/ghs.png"></span>京公网安备11010802020134号</a>-京ICP证110507号</span>
+            </p>
+        </div>
+    </div>
+    <script src="./js/check.js">
+
+    </script>
+    <script>
+    codePannel.init()
+        checkSignIn.init()
+    </script>
+
+</body>
+
+</html>

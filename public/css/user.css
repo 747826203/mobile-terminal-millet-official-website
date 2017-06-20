@@ -1,0 +1,269 @@
+/*#wrapper {
+    position: relative;
+    width: 7.2rem;
+    margin: 0 auto;
+    z-index: 2;
+}*/
+html, body, #wrapper {
+    height: 100%;
+}
+
+.page-personal-center {
+    background: #f5f5f5;
+    min-height: 100%;
+    padding-bottom: 1rem;
+}
+.page-personal-center .hd {
+    background: url(http://m.mi.com/views/user/index/img/bg_0425a88.png) center 0 #f37d0f;
+    background-size: auto 100%;
+    padding: .32rem 0;
+}
+.page-personal-center .a1 {
+    background: #fff;
+}
+.page-personal-center .items {
+    margin-top: .16rem;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #FFF;
+    z-index: 99;
+    border-top: 1px solid #e0e0e0;
+}
+page-personal-center .hd .user {
+    display: box;
+    display: -webkit-box;
+    box-align: center;
+    -webkit-box-align: center;
+    box-pack: start;
+    -webkit-box-pack: start;
+}
+.page-personal-center .hd .user .img {
+    margin: 0 .16rem 0 .32rem;
+    width: .96rem;
+    min-width: .96rem;
+    height: .96rem;
+    overflow: hidden;
+    box-sizing: border-box;
+    border-radius: 100%;
+    border: 3px solid rgba(255,255,255,.4);
+}
+.page-personal-center .hd .user .img.nologin {
+    border: 0;
+    background: url(http://m.mi.com/views/user/index/img/avatar_e29d6cb.png) no-repeat;
+    background-size: 100% auto;
+}
+.page-personal-center .hd .user .name {
+    color: #fff;
+    font-size: .24rem;
+}
+a, input, textarea {
+    text-decoration: none;
+    outline: 0;
+}
+.page-personal-center .a1 a.bill {
+    display: box;
+    display: -webkit-box;
+    box-align: center;
+    -webkit-box-align: center;
+    box-pack: justify;
+    -webkit-box-pack: justify;
+    padding-right: .56rem;
+    height: .8rem;
+    border-bottom: 1px solid rgba(0,0,0,.15);
+    position: relative;
+    color: rgba(0,0,0,.54);
+}
+cite, em, s, i, b {
+    font-style: normal;
+}
+.page-personal-center .a1 a.bill cite {
+    font-size: .28rem;
+    padding: 0 0 0 .32rem;
+    color: rgba(0,0,0,.87);
+}
+.page-personal-center .a1 a.bill .span {
+    font-size: .24rem;
+}
+.page-personal-center .a1 a.bill .span::after {
+    content: "";
+    position: absolute;
+    right: .32rem;
+    top: 50%;
+    width: .2rem;
+    height: .2rem;
+    border-left: 1px solid currentColor;
+    border-top: 1px solid currentColor;
+    transform: translate3d(0,-50%,0) rotateZ(135deg);
+    -webkit-transform: translate3d(0,-50%,0) rotateZ(135deg);
+}
+ol, ul {
+    list-style: none;
+}
+.page-personal-center .a1 .nav {
+    display: box;
+    display: -webkit-box;
+    box-align: stretch;
+    -webkit-box-align: stretch;
+    box-pack: justify;
+    -webkit-box-pack: justify;
+    padding: 0 .8rem;
+}
+li, img, label, input {
+    vertical-align: middle;
+}
+.page-personal-center .a1 .nav li {
+    display: box;
+    display: -webkit-box;
+    box-align: stretch;
+    -webkit-box-align: stretch;
+    box-pack: justify;
+    -webkit-box-pack: justify;
+    text-align: center;
+    font-size: .24rem;
+    color: rgba(0,0,0,.87);
+}
+a, input, textarea {
+    text-decoration: none;
+    outline: 0;
+}
+a {
+    color: #333;
+}
+.page-personal-center .a1 .nav li a {
+    padding: .4rem 0;
+    position: relative;
+    display: block;
+}
+.page-personal-center .a1 .nav li a .icon {
+    width: .48rem;
+    height: .48rem;
+    background: url(http://m.mi.com/views/user/index/img/nav-1_f74ca94.png) no-repeat center 0;
+    background-size: 100% auto;
+    margin: 0 auto .16rem;
+}
+.page-personal-center .a1 .nav li {
+    display: box;
+    display: -webkit-box;
+    box-align: stretch;
+    -webkit-box-align: stretch;
+    box-pack: justify;
+    /* -webkit-box-pack: justify; */
+    text-align: center;
+    font-size: .24rem;
+    color: rgba(0,0,0,.87);
+}
+.page-personal-center .a1 .nav li a .icon {
+    width: .48rem;
+    height: .48rem;
+    background: url(http://m.mi.com/views/user/index/img/nav-1_f74ca94.png) no-repeat center 0;
+    background-size: 100% auto;
+    margin: 0 auto .16rem;
+}
+.page-personal-center .a1 .nav li.dah .icon {
+    background-image: url(http://m.mi.com/views/user/index/img/nav-2_a05a641.png);
+}
+.page-personal-center .a1 .nav li.thx .icon {
+    background-image: url(http://m.mi.com//views/user/index/img/nav-4_42676a4.png);
+}
+.page-personal-center .items {
+    margin-top: .16rem;
+}
+.page-personal-center .items ul {
+    background: #fff;
+    margin-bottom: .16rem;
+}
+.page-personal-center .items ul li {
+    position: relative;
+    color: rgba(0,0,0,.54);
+    background: url(img/i=setting.png) no-repeat .32rem center;
+    background-size: .48rem auto;
+    border-bottom: 1px solid rgba(0,0,0,.15);
+}
+.page-personal-center .items ul li>a {
+    display: block;
+    padding-right: .56rem;
+    padding-left: 1.12rem;
+    height: 1.04rem;
+    display: box;
+    display: -webkit-box;
+    box-align: center;
+    -webkit-box-align: center;
+    box-pack: justify;
+    -webkit-box-pack: justify;
+    color: currentColor;
+}
+.page-personal-center .items ul li>a cite {
+    font-size: .28rem;
+    color: rgba(0,0,0,.87);
+}
+.page-personal-center .items ul li:last-child {
+    border-bottom-color: #fff;
+}
+.page-personal-center .items ul li.i-setting {
+    background-image: url(http://m.mi.com/views/user/index/img/nav-1_f74ca94.png);
+}
+.footer {
+position: fixed;
+bottom: 0;
+left: 0;
+right: 0;
+background: #FFF;
+z-index: 99;
+border-top: 1px solid #e0e0e0;
+}
+.footer ul {
+display: box;
+display: -webkit-box;
+box-align: center;
+-webkit-box-align: center;
+box-pack: center;
+-webkit-box-pack: center;
+}
+ol, ul {
+list-style: none;
+}
+.footer li {
+-webkit-box-flex: 1;
+box-flex: 1;
+width: 100%;
+text-align: center;
+}
+a, input, textarea {
+text-decoration: none;
+outline: 0;
+}
+a {
+color: #333;
+}
+.footer li>a {
+display: block;
+padding: .12rem 0;
+}
+.footer .nav .ispr {
+width: .4rem;
+height: .4rem;
+background-image: url(http://m.mi.com/component/footer/img/spr1_5b2e09c.png);
+-webkit-background-size: .4rem 3.2rem;
+-moz-background-size: .4rem 3.2rem;
+-ms-background-size: .4rem 3.2rem;
+-o-background-size: .4rem 3.2rem;
+background-size: .4rem 3.2rem;
+overflow: hidden;
+margin: 0 auto .08rem;
+}
+.footer li>a.on .nav .ispr.ih {
+background-position-y: -2.4rem;
+}
+.footer .nav .ispr.ic {
+background-position-y: -.4rem;
+}
+.footer .nav .ispr.is {
+background-position-y: -1.2rem;
+}
+.footer .nav .ispr.if {
+background-position-y: -2rem;
+}

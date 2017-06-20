@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js"></script>
+  <link rel="stylesheet" href="./css/user.css">
+</head>
+<body>
+    <div id="wrapper">
+    <div class="page-personal-center" data-log="个人中心">
+        <div class="hd">
+            <!--vue-if-->
+            <div class="user">
+                <div class="img nologin"></div>
+                <div class="name">登录/注册</div>
+            </div>
+            <!--vue-if-->
+        </div>
+        <div class="a1"><a href="javascript:;" data-event="40000000100060001" class="bill" data-stat-id="7e6ec20da560d0e5" onclick="_msq.push(['trackEvent', '221a86c5a4688b35-7e6ec20da560d0e5', 'javascript:', 'pcpid', '']);"><cite>我的订单</cite><div class="span more">全部订单</div></a>
+            <ul
+                class="nav">
+                <li class="dfk">
+                    <a href="javascript:;" data-event="40000000100060002" data-stat-id="8e4729b29cbd4cc9" onclick="_msq.push(['trackEvent', '221a86c5a4688b35-8e4729b29cbd4cc9', 'javascript:', 'pcpid', '']);">
+                        <div class="icon"></div><span>待付款</span>
+                        <!--vue-if-->
+                    </a>
+                </li>
+                <li class="dah">
+                    <a href="javascript:;" data-event="40000000100060003" data-stat-id="4302a339b35291a9" onclick="_msq.push(['trackEvent', '221a86c5a4688b35-4302a339b35291a9', 'javascript:', 'pcpid', '']);">
+                        <div class="icon"></div><span>待收货</span>
+                        <!--vue-if-->
+                    </a>
+                </li>
+                <li class="thx">
+                    <a href="javascript:;" data-event="40000000100060007" data-stat-id="77225b90d7c39716" onclick="_msq.push(['trackEvent', '221a86c5a4688b35-77225b90d7c39716', 'javascript:', 'pcpid', '']);">
+                        <div class="icon"></div><span>退换修</span></a>
+                </li>
+                </ul>
+        </div>
+        <div class="items">
+            <ul>
+                <li class="i-wallet"><a data-event="40000000100060004" data-stat-id="2894856588432f76" onclick="_msq.push(['trackEvent', '221a86c5a4688b35-2894856588432f76', '', 'pcpid', '']);"><cite>我的优惠</cite></a></li>
+            </ul>
+            <ul>
+                <li class="i-service"><a href="javascript:;" data-event="40000000100060005" data-stat-id="ab9a97b44c64771e" onclick="_msq.push(['trackEvent', '221a86c5a4688b35-ab9a97b44c64771e', 'javascript:', 'pcpid', '']);"><cite>服务中心</cite></a></li>
+                <li class="i-mihome"><a href="javascript:;" data-event="40000000100060008" data-stat-id="2cdcf96c707ee1c2" onclick="_msq.push(['trackEvent', '221a86c5a4688b35-2cdcf96c707ee1c2', 'javascript:', 'pcpid', '']);"><cite>小米之家</cite></a></li>
+            </ul>
+            <ul>
+                <li class="i-setting"><a href="javascript:;" data-event="40000000100060006" data-stat-id="3638e59cf4416bd1" onclick="_msq.push(['trackEvent', '221a86c5a4688b35-3638e59cf4416bd1', 'javascript:', 'pcpid', '']);"><cite>设置</cite></a></li>
+            </ul>
+        </div>
+        <div class="footer">
+            <ul>
+                <li>
+                    <a href="/" data-event="30000000110001002" data-stat-id="22e2020609e99d72" onclick="_msq.push(['trackEvent', '221a86c5a4688b35-22e2020609e99d72', '/#/index', 'pcpid', '']);">
+                        <div class="nav">
+                            <div class="ih ispr"></div>
+                            <p>首页</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" data-event="30000000110001003" data-stat-id="3a200b7f58b28dcf" onclick="_msq.push(['trackEvent', '221a86c5a4688b35-3a200b7f58b28dcf', '/#/product/category', 'pcpid', '']);">
+                        <div class="nav">
+                            <div class="ic ispr"></div>
+                            <p>分类</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/cart" data-event="30000000110001006" data-stat-id="3026740b323f6a9a" onclick="_msq.push(['trackEvent', '221a86c5a4688b35-3026740b323f6a9a', '/#/cart/index', 'pcpid', '']);">
+                        <div class="nav">
+                            <div class="is ispr"></div>
+                            <p>购物车</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/user" data-event="30000000110001005" class="on" data-stat-id="5030c3a449186266" onclick="_msq.push(['trackEvent', '221a86c5a4688b35-5030c3a449186266', '/#/user/index', 'pcpid', '']);">
+                        <div class="nav">
+                            <div class="if ispr"></div>
+                            <p>我的</p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--v-view-->
+</div>
+<script>
+  let user=document.querySelector('.user')
+  user.addEventListener('click',function(){
+    location.href="/signin"
+  })
+</script>
+
+</body>
+</html>

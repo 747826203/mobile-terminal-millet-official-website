@@ -1,0 +1,282 @@
+.wrapper {
+  min-height: 100%;
+  height: auto;
+}
+.wrap {
+  padding-bottom: 2.39872068rem;
+}
+.layout {
+  width: 100%;
+  margin: 0 auto 0.79957356rem;
+  padding: 0 0.53304904rem;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.ercode {
+  background: url(https://account.xiaomi.com/static/res/28f08d0/account-static/respassport/acc-2014/img/ercode_hover.png) no-repeat center;
+  width: 1.81236674rem;
+  height: 1.81236674rem;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.ercode_pannel {
+  margin-bottom: 4.26439232rem;
+  display: none;
+}
+.code_close {
+  background-color: #bdbdbd;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  width: 0.79957356rem;
+  height: 0.79957356rem;
+  position: absolute;
+  right: 0.26652452rem;
+  top: 0.26652452rem;
+  z-index: 10;
+}
+.icon_code_close {
+  width: 0.53304904rem;
+  height: 0.53304904rem;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+}
+.icon_code_close:before {
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+.icon_code_close:after {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.icon_code_close:before,
+.icon_code_close:after {
+  content: "";
+  width: 100%;
+  height: 0.02665245rem;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-top: 0.10660981rem;
+}
+.ercode_box {
+  padding-top: 1.06609808rem;
+}
+.zh_CN .code_hd,
+.zh_TW .code_hd {
+  text-align: center;
+}
+.code_hd {
+  padding-bottom: 0.53304904rem;
+}
+.code_hd p {
+  text-align: center;
+}
+.code_tit {
+  font-size: 0.53304904rem;
+  text-align: center;
+  color: #ff6700;
+  font-weight: normal;
+  padding-bottom: 0.26652452rem;
+}
+.code_iframe {
+  width: 100%;
+  height: 7.99573561rem;
+}
+.code-bg {
+  margin: 0 auto;
+  width: 7.19616205rem;
+  height: 7.19616205rem;
+  background-image: url(https://account.xiaomi.com/pass/lp?callback=https%3A%2F%2Fm.mi.com%2Fv1%2Fauthorize%2Fsso_callback%3Ffollowup%3Dhttp%253A%252F%252Fm.mi.com%252F%2523%252Fuser%252Findex%26sign%3DZmRjZDY5ZTc3YTczNWYxOWNlZDBkNmQ0M2VmNDJhOGFhM2E0MzIyNg%2C%2C&sid=mi_eshopm_go&_style=lite&_qrsize=270);
+  background-size: cover;
+}
+.milogo {
+  background-image: url(https://account.xiaomi.com/static/res/28f08d0/account-static/respassport/acc-2014/img/milogo.png);
+  width: 1.30597015rem;
+  height: 1.2793177rem;
+  margin: 0 auto 0.58635394rem;
+  display: block;
+  background-image: -webkit-image-set(url(https://account.xiaomi.com/static/res/28f08d0/account-static/respassport/acc-2014/img/milogo.png) 1x, url(https://account.xiaomi.com/static/res/28f08d0/account-static/respassport/acc-2014/img/milogo@2x.png) 2x);
+}
+.header_tit {
+  padding: 1.06609808rem 0 0.58635394rem;
+}
+.t_c {
+  text-align: center;
+  font-size: 0.53304904rem;
+}
+.login_area {
+  margin-top: 0.26652452rem;
+}
+label.login_user {
+  margin-bottom: 1px;
+  -webkit-border-radius: 0.42643923rem 0.42643923rem 0 0;
+  border-radius: 0.42643923rem 0.42643923rem 0 0;
+  display: -webkit-box;
+  display: flex;
+}
+.labelbox {
+  display: block;
+  padding: 0 0.26652452rem;
+  background-color: #fff;
+}
+.labelbox input {
+  width: 100%;
+  padding: 0.26652452rem 0;
+  line-height: normal;
+  display: block;
+  font-size: 0.42643923rem;
+  flex: 1;
+}
+label.pwd_panel {
+  -webkit-border-radius: 0 0 0.42643923rem 0.42643923rem;
+  border-radius: 0 0 0.42643923rem 0.42643923rem;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+.labelbox {
+  display: block;
+  padding: 0 0.26652452rem;
+  background-color: #fff;
+  -webkit-border-radius: 0.42643923rem;
+  -moz-border-radius: 0.42643923rem;
+  -o-border-radius: 0.42643923rem;
+  border-radius: 0.42643923rem;
+}
+.eye {
+  width: 0.53304904rem;
+  height: 0.42643923rem;
+  display: block;
+}
+.eye_panel {
+  padding-left: -0.26652452rem;
+}
+.eye_outer {
+  fill: #4d4d4d;
+}
+.eye_inner {
+  fill: #4d4d4d;
+  stroke: #fff;
+  stroke-width: 2;
+  stroke-opacity: .8;
+}
+.eye.chk .eye_inner {
+  fill: #33b4ff;
+}
+.eye.chk .eye_outer {
+  fill: #33b4ff;
+}
+.login-btn {
+  padding-top: 0.63965885rem;
+  padding-bottom: 0.39978678rem;
+  margin-top: 0.74626866rem;
+}
+.btn_orange {
+  background-color: #33b4ff;
+}
+.btnadpt {
+  width: 100%;
+  padding: 0.26652452rem 0;
+  display: block;
+  margin-bottom: 0.37313433rem;
+  text-align: center;
+  font-size: 0.42643923rem;
+  color: #fff;
+  cursor: pointer;
+  -webkit-border-radius: 0.53304904rem;
+  -moz-border-radius: 0.53304904rem;
+  -o-border-radius: 0.53304904rem;
+  border-radius: 0.53304904rem;
+  border: 0.02665245rem solid rgba(186, 186, 186, 0.3);
+  overflow: hidden;
+}
+.other_login_type {
+  padding-bottom: 0.53304904rem;
+}
+.oth_type_tit {
+  border-top: 0.02665245rem dashed #bdbdbd;
+  padding-top: 0.26652452rem;
+}
+.oth_type_txt {
+  font-size: 0.37313433rem;
+  color: #b0b0b0;
+}
+.oth_type_links {
+  padding-top: 0.26652452rem;
+  text-align: center;
+}
+.icon_type {
+  width: 1.19936034rem;
+  height: 1.19936034rem;
+  margin: 0 0.26652452rem;
+  display: inline-block;
+  text-indent: -266.4978678rem;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+.btn_qq {
+  background-color: #0288d1;
+}
+.btn_weibo {
+  background-color: #d32f2f;
+}
+.btn_alipay {
+  background-color: #0ae;
+}
+.icon_type .btn_sns_icontype {
+  background-size: auto 0.77292111rem;
+  width: 1.03944563rem;
+  height: 0.77292111rem;
+  margin: 0.21321962rem auto 0;
+}
+.btn_sns_icontype {
+  background: url(https://account.xiaomi.com/static/res/166d6dc/account-static/respassport/acc-2014/img/iconstype_wap.png);
+  display: block;
+  background-size: auto 0.50639659rem;
+}
+.icon_type .icon_default_qq {
+  background-position: 0 0;
+}
+.icon_type .icon_default_weibo {
+  background-position: -1.03944563rem 0;
+}
+.icon_type .icon_default_alipay {
+  background-position: -2.07889126rem 0;
+}
+.n_links_area {
+  padding: 0.53304904rem 0 0.26652452rem;
+  text-align: center;
+  color: #e0e0e0;
+}
+.n_links_area a {
+  padding: 0 0.23987207rem;
+  font-size: 0.37313433rem;
+  color: #757575;
+}
+.n-footer {
+  color: #757575;
+  line-height: 1.5;
+  text-align: center;
+  font-size: 0.37313433rem;
+  margin-top: -2.39872068rem;
+  height: 2.39872068rem;
+}
+.nf-link-area {
+  text-align: center;
+}
+.nf-link-area li {
+  display: inline-block;
+}
+.nf-link-area a {
+  display: inline-block;
+  padding: 0 0.26652452rem;
+  color: #757575;
+}
+.nf-intro {
+  padding: 0.26652452rem;
+}
